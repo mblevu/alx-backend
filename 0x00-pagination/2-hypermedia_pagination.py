@@ -41,7 +41,7 @@ class Server:
         assert type(page_size) is int and page_size > 0
         start, end = index_range(page, page_size)
         return self.dataset()[start:end]
-    
+
     def get_hyper(self, page: int = 1, page_size: int = 10) -> List[List]:
         """ Finds the correct indexes to paginate dataset correctly """
         assert type(page) is int and page > 0
