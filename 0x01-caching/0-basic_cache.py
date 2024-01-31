@@ -22,7 +22,7 @@ class BaseCaching():
             print("{}: {}".format(key, self.cache_data.get(key)))
 
 
-class BaseCache(BaseCaching):
+class BasicCache(BaseCaching):
     """inherits from BaseCaching class"""
     def put(self, key, item):
         """assigns to the dictionary"""
