@@ -22,7 +22,7 @@ class LRUCache(BaseCaching):
             last = self.keys.pop(0)
             self.cache_data.pop(last)
             print("DISCARD: {}".format(last))
-    
+
     def get(self, key):
         """gets an item from the cache"""
         if key in self.keys:
