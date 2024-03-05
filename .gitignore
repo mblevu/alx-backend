@@ -13,3 +13,8 @@ venv/
 aws/
 awscliv2.zip
 templates/timestamp.html
+node_modules/
+redis-5.0.7
+redis-6.0.10
+redis-6.0.10.tar.gz
+redis-5.0.7.tar.gz
